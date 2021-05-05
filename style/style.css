@@ -1,0 +1,393 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face{
+    src: url(../fonts/Fontfabric\ -\ MullerBlack.otf);
+    font-family: "MullerBlack";
+}
+@font-face{
+    src: url(../fonts/Fontfabric\ -\ MullerBold.otf);
+    font-family: "MullerBold";
+}
+@font-face{
+    src: url(../fonts/Fontfabric\ -\ MullerExtraBold.otf);
+    font-family: "MullerExtraBold";
+}
+@font-face{
+    src: url(../fonts/Fontfabric\ -\ MullerRegular.otf);
+    font-family: "MullerRegular";
+}
+body{
+    font-family: "MullerRegular";
+}
+/**Header_style**/
+#header{
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px 3px 13.8px 1.2px rgba(152, 152, 152, 0.2);      
+}
+#headr-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+display: flex;
+align-items: center;
+}
+.logo span{
+font-size: 24px;
+font-family: "MullerBlack";
+color: rgb(255, 196, 104);
+text-transform: uppercase;
+width: 85px;
+margin-left: 8px;
+}
+#menu{
+margin: 0 261px 0 248px;
+width: 490px;
+display: flex;
+justify-content: space-between;
+}
+#menu .menu-item{
+font-size: 16px;
+color: rgb(164, 107, 0);
+text-decoration: none;
+}
+/**Main**/
+#main-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 132px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#main-info{
+    max-width: 622px;
+
+}
+#main-info h1{
+font-size: 45px;
+font-family: "MullerExtraBold";
+color: rgb(185, 145, 80);
+font-weight: bold;
+line-height: 1.222;
+margin: 0;
+}
+#main-info h1 span{
+    color: #ffaf18;
+}
+#main-advanteges{
+    margin-top: 13px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.advanteges{
+    max-width: 292px;
+    display: flex;
+    align-items: center;
+    margin-top: 47px;
+}
+.advanteges .advanteges-text{
+    margin-left: 16px;
+}
+.advanteges .advanteges-title{
+        font-size: 16px;
+        font-family: "MullerExtraBold", sans-serif;
+        color: rgb(255, 175, 24);
+        font-weight: bold;
+        text-transform: uppercase;
+}
+.advanteges .advanteges-description{
+margin-top: 10px;
+        font-size: 16px;
+        color: rgb(185, 145, 80);
+        line-height: 1;
+}
+.btn{
+    background-color: #ffaf18;
+    text-align: center;
+
+        font-size: 16px;
+        font-family: "MullerBold", sans-serif;
+        color: rgb(56, 36, 0);
+        text-decoration: none;
+        padding: 22px;
+        box-sizing: border-box;
+        border: none;
+}
+#main-action .btn{
+    width: 224px;
+    display: inline-block;
+    margin-top: 60px;
+}
+/**Products_style**/
+#products-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top:161px ;
+}
+#products-title{
+        font-size: 35px;
+        font-family: "Muller";
+        color: rgb(189, 152, 92);
+        font-family: "MullerBold", sans-serif;
+        text-align: center;
+}
+#products-item{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.product{
+   box-sizing: border-box;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px 3px 13.8px 1.2px rgba(152, 152, 152, 0.2);
+        width: 282px;
+padding: 27px 20px 15px 20px;
+text-align: center;
+margin-bottom: 24px;
+}
+.product-title{
+            font-size: 18px;
+        font-family: "MullerBold", sans-serif;
+        color: rgb(56, 36, 0);
+    margin-top: 15px;  
+
+      
+}
+.product-text{
+font-size: 14px;
+ margin-top: 17px;
+color: rgb(24, 26, 26);
+line-height: 1.286;
+height: 49px;      
+}
+.product .product-button.btn{
+    border: 0;
+    outline: 0;
+    padding: 17px;
+    margin-top: 15px;
+    width: 100%;
+}
+.product .product-image{
+    height:155px;
+}
+/**order_style**/
+#order{
+    overflow: hidden;
+}
+#order-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 216px 0 115px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+#order-text{
+    max-width: 384px;
+
+}
+#order-text-title{
+        font-size: 35px;
+        font-family: "MullerExtraBold", sans-serif;
+        color: #b99150;
+        line-height: 1.286;
+}
+#order-text-title span{
+        color: rgb(255, 175, 24);
+ }
+ #order-text-message{
+        font-size: 16px;
+        color: rgb(185, 145, 80);
+        line-height: 1.5;
+        margin-top: 65px;
+ }
+ #order-form{
+     max-width: 330px;
+
+ }
+ #order-form input{ 
+border-width: 1px;
+border-color: rgb(185, 145, 80);
+border-style: solid;
+background-color: rgb(255, 255, 255);
+width: 328px;
+padding: 23px;
+font-size: 18px;
+outline: none;      
+box-sizing: border-box;
+
+}
+#name-container, #address-container, #mobile-container{
+    margin-bottom: 24px;
+    position: relative;
+}
+::placeholder{
+    color: rgb(203, 168, 110);
+}
+#order-form .btn{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+
+}
+#order-image{
+    width: 282px;
+    position: relative;
+}
+#order-image img{
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+}
+form .erro-input{
+    color: red;
+    font-size: 15px;
+    display: none;
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+    }
+    #accepted{
+        background-color: #FFAF18FF;
+        color: black;
+        color: white;
+        font-size: 22px;
+        border-radius: 10%;
+        justify-content: center;
+        align-items: center;
+        width: 328px;
+        height: 338.4px;
+        display: none;
+    }
+    #accepted span{
+        text-align: center;
+    }
+/**Footer_style**/
+#footer{
+background-color: rgb(255, 255, 255); 
+box-shadow: 0px 0px 13.8px 1.2px rgba(152, 152, 152, 0.2);
+}
+#footer-container{
+    margin: 0 auto;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+}
+#rights{
+font-size: 12px;
+color: rgb(186, 179, 179);
+margin-left: 358px;
+}
+#burger{
+    display: none;
+}
+#menu svg{
+    display: none;
+}
+/**Hover**/
+.hvr-underline-from-center:before{
+    height: 3px;
+    -webkit-transition-duration: .5s;
+}
+.hvr-grow-shadow:hover{
+    cursor: pointer;
+    display: block;
+}
+#test-modal{
+    text-align: center; 
+    color: white;
+}
+.popup-modal-dismiss{
+    text-decoration: none;
+    color: white;
+}
+
+/**Loading_style**/
+#loadin{
+    width: 100%;
+    height: 100%;
+   
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0, 0.8);
+    position: fixed;
+    top: 0;
+    display: none;
+}
+.lds-grid {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+  }
+  .lds-grid div {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #FFAF18FF;
+    animation: lds-grid 1.2s linear infinite;
+  }
+  .lds-grid div:nth-child(1) {
+    top: 8px;
+    left: 8px;
+    animation-delay: 0s;
+  }
+  .lds-grid div:nth-child(2) {
+    top: 8px;
+    left: 32px;
+    animation-delay: -0.4s;
+  }
+  .lds-grid div:nth-child(3) {
+    top: 8px;
+    left: 56px;
+    animation-delay: -0.8s;
+  }
+  .lds-grid div:nth-child(4) {
+    top: 32px;
+    left: 8px;
+    animation-delay: -0.4s;
+  }
+  .lds-grid div:nth-child(5) {
+    top: 32px;
+    left: 32px;
+    animation-delay: -0.8s;
+  }
+  .lds-grid div:nth-child(6) {
+    top: 32px;
+    left: 56px;
+    animation-delay: -1.2s;
+  }
+  .lds-grid div:nth-child(7) {
+    top: 56px;
+    left: 8px;
+    animation-delay: -0.8s;
+  }
+  .lds-grid div:nth-child(8) {
+    top: 56px;
+    left: 32px;
+    animation-delay: -1.2s;
+  }
+  .lds-grid div:nth-child(9) {
+    top: 56px;
+    left: 56px;
+    animation-delay: -1.6s;
+  }
+  @keyframes lds-grid {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.5;
+    }
+  }
